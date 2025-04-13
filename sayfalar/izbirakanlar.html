@@ -6,7 +6,48 @@
 <title> HÜSEYİN KAPLAN </title>
 </head>
 <body>  
-   <h1> UFC'DE İz Bırakmış Bazı Dövüşçüler </h1>
+   <style>
+
+      
+      h1 {
+         color: #300b75;
+         text-align: center;
+      }
+      h2 {
+         text-align: center;
+      }
+      img {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+      }
+      hr {
+         margin-top: 40px;
+         margin-bottom: 40px;
+      }
+      body {
+          font-family: Arial, sans-serif;
+          background-color: #f4f4f4;
+          padding: 20px;
+        }
+    
+        h1 {
+          text-align: center;
+          color: #222;
+        }
+    
+        a {
+          color: #007bff;
+          text-decoration: none;
+        }
+    
+        a:hover {
+          text-decoration: underline;
+        }
+   </style>
+</head>
+<body>
+    <h1 style="color: #8a1212;" > İz Bırakmış Dövüşçüler </h1>
    <hr>
    <h1> "The Notorious" Conor McGregor </h1>
    <img src="../resimler/conor.png" alt="Conor McGregor" width="300" >
@@ -90,7 +131,7 @@
    <hr>
    <h1> Alexander “The Great“ Volkanovski </h1>
    <img src="../resimler/volkanovksi.jpg" alt="Alexander Volkanovski" width="300">
-   <h2> MMA Karnesi: 26-4 </h2>
+   <h2> MMA Karnesi: 27-4 </h2>
    <h2> Avustralyalı bir MMA dövüşçüsüdür ve UFC featherweight eski şampiyonudur. Dövüş kariyerinde güçlü boks yetenekleri, dayanıklılığı ve stratejik zekasıyla tanınır. Volkanovski, UFC featherweight şampiyonluğunu uzun süre savunmuş ve dövüşlerdeki yüksek tempoyu ve agresifliğiyle dikkat çekmiştir. Hâlâ UFC'de aktif olarak dövüşmektedir. </h2>
    <hr>
    <h1> "El Cucuy" Tony Ferguson  </h1>
@@ -108,19 +149,44 @@
    <h2> MMA Karnesi: 22-8-2 </h2>
    <h2> Meksikalı bir MMA dövüşçüsüdür. UFC sinek sikletin eski şampiyonudur. Moreno, güçlü grappling yetenekleri ve teknik vuruşlarıyla tanınır. Meksika'nın ilk UFC şampiyonu olarak büyük bir başarıya imza atmıştır ve dövüşçü olarak stratejik zekasıyla öne çıkar. </h2>
    <hr>
-   <h1> Benim İçin İz Bıramış Dövüşçü: </h1>
    <h1> Gökhan "The Rebel" Saki </h1>
    <img src="../resimler/saki.jpg" alt="Gökhan Saki" width="300">
    <h2> MMA Karnesi: 1-2  Genel Dövüş Karnesi: 102-14 </h2>
    <h2> Türk kickboks ve MMA sporcusudur. Kickboks kariyerinde büyük başarılar elde etmiş ve K-1 organizasyonlarında dikkat çekmiştir. K1 ve Glory organizasyonlarında çok başarılı olan Saki istediği performansı MMA'de verememiştir. Saki, dövüş stilindeki agresiflik ve teknik becerisiyle bilinir. Hem kickboks hem de MMA ringlerinde izlediği etkili stratejiler ve savaşçı ruhu ile tanınan Saki, dövüşçü kimliğiyle Türk sporunun en önemli figürlerinden biridir. </h2>
    <hr>
-   <h3> NOT: Liste sıralamasız şekildedir ve listeye aktif olarak şampiyon olan kişileri ekleenmedi. O kişileri aktif şampiyonlar sekmesinde görebilirsiniz. Ayrıca öneriler geldikçe iz bırakan dövüşçü eklenecektir. </h3>
+   <h3> NOT: Liste sıralamasız şekildedir ve listeye aktif olarak şampiyon olan kişiler ekleenmedi. O kişileri aktif şampiyonlar sekmesinde görebilirsiniz. Ayrıca öneriler geldikçe iz bırakan dövüşçü eklenecektir. </h3>
    <hr>
+
+   <h2 style="color: #2e0b70;">Dövüşçü Öneri Kısmı:</h2>
+<div style="width: 100%; display: flex; justify-content: center; margin-top: 20px;">
+  <table>
+    <tr>
+      <td><label for="adsoyad">İsim Soyisim:</label></td>
+      <td><input type="text" id="adsoyad" name="adsoyad"></td>
+    </tr>
+    <tr>
+      <td><label for="dovuscu">Dövüşçü İsmi:</label></td>
+      <td><input type="text" id="dovuscu" name="dovuscu"></td>
+    </tr>
+  </table>
+  <button onclick="gonderMesaj()">Öneriyi Gönder</button>
+</div>
+
+<!-- Mesaj kutusu -->
+<div id="mesajKutusu" style="text-align: center; margin-top: 20px; color: green; font-weight: bold;"></div>
+
+<script>
+  function gonderMesaj() {
+    document.getElementById("mesajKutusu").textContent = "Teşekkürler, öneriniz gönderildi!";
+  }
+</script>
+ 
    <br>
    <h3> <a href="../index.html">Anasayfaya dön</a> </h3>
    <h3> <a href="ufc.html"> Ufc Sayfasına Gider </a> </h3>
    <h3> <a href="ufcsampiyonlari.html"> Erkek UFC Şampiyonları Sayfasına Gider </a> </h3>
    <h3> <a href="kadinsampiyonlar.html"> Kadın UFC Şampiyonları Sayfasına Gider </a> </h3>
+   <h3> <a href="p4psiralama.html"> P4P Sıralamaları </a> </h3>
 </body> 
 
 </html>
