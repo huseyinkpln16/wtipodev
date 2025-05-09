@@ -26,6 +26,7 @@ a:hover {
   text-decoration: underline;
 }
 
+
 img {
   display: block;
   margin-left: auto;
@@ -40,7 +41,7 @@ hr {
 
 /* Stil için renk özelleştirmeleri */
 h1.ozel-baslik {
-  color: #8a1212;
+  color: #660909;
 }
 
 h2.ozel-baslik {
@@ -100,7 +101,7 @@ body.index {
 }
 
 .ufc-table thead {
-  background-color: #300b75;
+  background-color: #b60a0a;
   color: white;
 }
 
@@ -146,7 +147,7 @@ body.index {
 }
 
 .weight-table thead {
-  background-color: #300b75;
+  background-color: #700303;
   color: white;
 }
 
@@ -184,4 +185,368 @@ body.index {
 h1,
 h2.ozel-baslik {
   color: #300b75;
+}
+body {
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #000000;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.navbar a {
+  color: #ee0606;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #0d6efd;
+  color: white;
+  border-radius: 5px;
+}
+
+h1 {
+  color: #be0d0d;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logo {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.logo img {
+  width: 300px;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.content h3 {
+  color: #000;
+  line-height: 1.6;
+}
+
+hr {
+  margin: 40px 0;
+  
+}
+.not-uyarisi {
+  color: #ffffff;
+  font-weight: bold;
+  font-style: italic;
+  margin: 20px 0;
+}
+
+body.oyun-sayfasi {
+  background-color: #ffffff; 
+  color: #6b0e0e;
+}
+
+.ufc-reflex-game {
+  max-width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #111;
+  color: #fff;
+  border: 2px solid #d00;
+  border-radius: 12px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 0 12px #900;
+}
+
+.ufc-reflex-game h2 {
+  margin-bottom: 15px;
+  color: red;
+}
+
+.ufc-reflex-game button {
+  padding: 12px 20px;
+  font-size: 16px;
+  margin: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+#start-btn {
+  background: rgb(100, 0, 0);
+  color: white;
+}
+
+#hit-btn {
+  background: red;
+  color: white;
+}
+
+.baslik-mma {
+  color: rgb(128, 7, 7); 
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.baslik-branslar {
+  color: rgb(128, 7, 7); 
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.sampiyon-kapsayici {
+  padding: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+.sayfa-baslik {
+  text-align: center;
+  color: darkred;
+  margin-bottom: 40px;
+  font-size: 28px;
+}
+
+.sampiyon-kart {
+  background-color: rgb(219, 216, 205);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.sampiyon-baslik {
+  text-align: center;
+  color: #940909;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.sampiyon-icerik {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.sampiyon-resim {
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+.sampiyon-aciklama {
+  flex: 1;
+}
+
+.karne {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.bilgi {
+  text-align: justify;
+  line-height: 1.6;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../resimler/octagon.png); 
+  background-size: cover;
+  background-position: center;
+  filter: blur(10px);
+  z-index: -1;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.background2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../resimler/dobronxs.png); 
+  background-size: cover;
+  background-position: center;
+  filter: blur(10px);
+  z-index: -1;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.background3 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../resimler/belt.png); 
+  background-size: cover;
+  background-position: center;
+  filter: blur(10px);
+  z-index: -1;
+}
+
+.ufc-page * {
+  box-sizing: border-box;
+}
+
+.ufc-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #000000;
+  color: #f8f8f8;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.ufc-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.ufc-header h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+.ufc-header p {
+  color: #ffffff;
+}
+
+.ufc-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.ufc-container section {
+  margin-bottom: 50px;
+}
+
+.ufc-container section h2 {
+  color: #fdfdfd;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #eeeeee;
+  padding-bottom: 5px;
+}
+
+.ufc-card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.ufc-card {
+  background-color: #860606;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.ufc-card:hover {
+  transform: scale(1.05);
+}
+
+.ufc-card h3 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.ufc-card p {
+  color: #fafafa;
+}
+
+.ufc-footer {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 0.9rem;
+  color: #828282;
+}
+
+/* not rengi */
+.not {
+  color: #ffffff; 
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.not a {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.not a:hover {
+  color: #0a2dbb; 
+  text-decoration: none;
+}
+
+.sampiyon-notu {
+  color: rgb(134, 13, 13);
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.ufc-footer {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 12px;
+  color: rgb(255, 255, 255); 
+  font-family: 'Segoe UI', sans-serif;
+  user-select: none;
+  pointer-events: none;
+  position: relative;
+  z-index: 10;
+}
+
+/* Sayfanın altında boşluğu engeller */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: auto !important;
+  overflow-x: hidden;
+}
+
+/* anlamsız boşluk varsa engelle */
+footer + div {
+  display: none !important;
+}
+
+body::after {
+  content: "";
+  display: block;
+  height: 0px;
 }
