@@ -374,7 +374,7 @@ body, html {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('./resimler/octagon.png'); 
+  background-image: url('../resimler/octagon.png');
   background-size: cover;
   background-position: center;
   filter: blur(10px);
@@ -393,7 +393,7 @@ body, html {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('./resimler/dobronxs.png'); 
+  background-image: url('../resimler/dobronxs.png'); 
   background-size: cover;
   background-position: center;
   filter: blur(10px);
@@ -412,7 +412,7 @@ body, html {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('./resimler/belt.png'); 
+  background-image: url('../resimler/belt.png'); 
   background-size: cover;
   background-position: center;
   filter: blur(10px);
