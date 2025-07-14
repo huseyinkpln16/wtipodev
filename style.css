@@ -412,7 +412,7 @@ body, html {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('../resimler/belt.png'); 
+  background-image: url('.//resimler/ufc148.png'); 
   background-size: cover;
   background-position: center;
   filter: blur(10px);
@@ -550,3 +550,60 @@ body::after {
   display: block;
   height: 0px;
 }
+
+/* ----------- Dövüşçü Öneri Formu Şık Tasarım ----------- */
+#oneriformu {
+  background: linear-gradient(135deg, #ffffff, #ffffff); /* Koyu mor degrade */
+  padding: 24px;
+  border-radius: 16px;
+  color: #ffffff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  text-align: left;
+  border: 1px solid #aaa;
+}
+
+/* Tablo içi yazı */
+#oneriformu table td {
+  color: #000000;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* Input alanları */
+#oneriformu input[type="text"] {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #bbb;
+  padding: 8px 10px;
+  border-radius: 6px;
+  width: 220px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
+}
+
+/* Gönder butonu */
+#oneriformu button {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+#oneriformu button:hover {
+  background-color: #e5e5ff;
+  color: #1f004d;
+}
+
+/* Teşekkür mesajı */
+#oneriMesaji {
+  color: #66ff99;
+  font-weight: bold;
+  margin-top: 10px;
+}
+/* ----------- Dövüşçü Öneri Formu Bitiş ----------- */
+
